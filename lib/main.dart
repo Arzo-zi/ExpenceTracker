@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart'; 
 import 'package:expence_tracker/expenses.dart';
 void main(){
-  runApp(appWidget
-    
-  );
-}
+  runApp(const MyApp());}
 
-class appWidget extends StatelessWidget {
-  const appWidget({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,3 +13,19 @@ class appWidget extends StatelessWidget {
     );
   }
 }
+
+
+/*
+void main(){
+runApp(const MyApp());}
+
+  
+
+class MyApp extends StatelessWidget{
+const  MyApp({super.key});
+@override
+Widget build(context){
+return const MyQuiz();
+    
+}
+}*/
